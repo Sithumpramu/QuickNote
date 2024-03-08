@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- launch_screen strings -->
+
+    <string name="app_name">QuickNote</string>
+    <string name="text_string">Lets Start</string>
+    <string name="title_string">Ready to experience the Difference?</string>
+    <string name="already_have_an_account__string">Already have an account?</string>
+    <string name="description_string">Your efficient note-taking journey is just a click away</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="text_stringcreate">Create Account</string>
+    <string name="create_a_free_account_string">Create a free account</string>
+    <string name="quicknote_string">QuickNote</string>
+
+    <string name="full_name_string">Full Name</string>
+    <string name="email_address_string">Email Address</string>
+    <string name="password_string">Password</string>
+    <string name="sithum_pramuditha_string">Sithum Pramuditha</string>
+    <string name="sithumpramuditha_gmail_com_string">sithumpramuditha@gmail.com</string>
+    <string name="string">############</string>
+    <string name="join_quicknote">Join QuickNote for free. Create and share unlimited notes.</string>
+
+    <string name="text_stringlogin">Login </string>
+    <string name="login_to_your_account_string">Login to your account</string>
+    <string name="welcome_back_string">Welcome Back</string>
+
+    <string name="all_notes_string">All Notes</string>
+    <string name="create_your_first_note_string">Create Your First Note</string>
+    <string name="add_a_note">Add a note about anything (your thoughts on climate change, or your history essay) and share it with the world.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- launch_screen colors -->
+
+
+	<color name="_bg__launch_screen_ek2_color">#B9DBF0</color>
+	<color name="_bg__button_main_color">#009DFF</color>
+	<color name="_bg__button_ek1_color">#38A944</color>
+	<color name="_bg__content_ek1_color">#000000</color>
+	<color name="title_color">#180E25</color>
+	<color name="already_have_an_account__color">#D8614B</color>
+	<color name="description_color">#827D89</color>
+
+
+</resources>
