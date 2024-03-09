@@ -27,4 +27,12 @@
     <string name="all_notes_string">All Notes</string>
     <string name="create_your_first_note_string">Create Your First Note</string>
     <string name="add_a_note">Add a note about anything (your thoughts on climate change, or your history essay) and share it with the world.</string>
+    <string name="create_plus">+</string>
+
+    <string name="title_create">Title</string>
+    <string name="content_create">Content</string>
+
+    <string name="edit_profile_string">Edit Profile</string>
+    <string name="dark_mode_string">Dark Mode</string>
+    <string name="log_out_string">Log Out</string>
 </resources>
