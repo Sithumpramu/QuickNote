@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(Intent(this@MainActivity, Onboard::class.java))
             finish()
-        }, 10000)
+        }, 2000)
 
 
     }
