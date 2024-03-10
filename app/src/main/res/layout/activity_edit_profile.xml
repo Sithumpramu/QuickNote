@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/_bg__launch_screen_ek2_color"
     android:layout_height="match_parent"
+    android:background="@color/_bg__launch_screen_ek2_color"
     android:fillViewport="true"
     android:orientation="vertical">
 
@@ -16,18 +15,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Signup">
+    tools:context=".Profile">
 
-    <TextView
-        android:id="@+id/Appname"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        android:textStyle="bold"
-        android:text="@string/quicknote_string" />
+        android:layout_marginTop="20dp"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/imageback"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/Appname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/quicknote_string"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="954dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/heading"
@@ -36,9 +47,17 @@
         android:gravity="center"
         android:textSize="23sp"
         android:textStyle="bold"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:textColor="@color/title_color"
-        android:text="@string/create_a_free_account_string" />
+        android:text="@string/edit_profile_string" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/boy" />
+
 
     <TextView
         android:id="@+id/textView7"
@@ -48,12 +67,12 @@
         android:textSize="17sp"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="30dp"
-        android:text="@string/join_quicknote" />
+        android:text="@string/change_picture_string" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:orientation="vertical">
 
         <TextView
@@ -75,11 +94,11 @@
             android:elegantTextHeight="true"
             android:inputType="text"
             android:layout_marginBottom="20dp"
-            android:hint="@string/sithum_pramuditha_string" />
+            android:text="@string/sithum_pramuditha_string" />
 
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
@@ -87,7 +106,7 @@
             android:textColor="@color/title_color"
             android:text="@string/email_address_string" />
         <EditText
-            android:id="@+id/Email"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
@@ -96,58 +115,35 @@
             android:ems="10"
             android:elegantTextHeight="true"
             android:inputType="textEmailAddress"
-            android:hint="@string/sithumpramuditha_gmail_com_string" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="45dp"
-            android:textSize="19sp"
-            android:textColor="@color/title_color"
-            android:text="@string/password_string" />
-
-        <EditText
-            android:id="@+id/Password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="45dp"
-            android:layout_marginTop="5dp"
-            android:ems="10"
-            android:elegantTextHeight="true"
-            android:inputType="textPassword"
-            android:hint="@string/string" />
+            android:hint="@string/evftbyvvcd_string" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonsignup"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="35dp"
-                android:backgroundTint="@color/_bg__button_main_color"
-                android:gravity="center"
-                android:onClick="Buttonclick"
-                android:text="@string/text_stringcreate"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/haveaccount"
+                android:id="@+id/updatebutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/already_have_an_account__string"
-                android:textColor="@color/already_have_an_account__color"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+                android:layout_marginHorizontal="75dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/update_string"
+                android:backgroundTint="@color/title_color"/>
+
+            <Button
+                android:id="@+id/deletebutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="75dp"
+                android:backgroundTint="@color/already_have_an_account__color"
+                android:text="@string/delete_account_string" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 
 </LinearLayout>
 </ScrollView>

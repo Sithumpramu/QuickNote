@@ -21,8 +21,8 @@
         android:layout_height="wrap_content"
         android:text="@string/title_string"
         android:gravity="center"
-        android:textSize="32sp"
-        android:layout_marginLeft="-5dp"
+        android:textSize="24sp"
+       android:layout_marginHorizontal="20dp"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:textColor="@color/title_color" />

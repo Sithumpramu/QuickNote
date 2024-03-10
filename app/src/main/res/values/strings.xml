@@ -35,4 +35,12 @@
     <string name="edit_profile_string">Edit Profile</string>
     <string name="dark_mode_string">Dark Mode</string>
     <string name="log_out_string">Log Out</string>
+
+
+    <string name="change_picture_string">Change Picture</string>
+    <string name="name_string">Name</string>
+    <string name="update_string">Update</string>
+    <string name="delete_account_string">Delete Account</string>
+    <string name="evftbyvvcd_string">evFTbyVVCd</string>
+
 </resources>

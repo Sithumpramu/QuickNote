@@ -11,11 +11,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        Handler().postDelayed({
-//
-//            startActivity(Intent(this@MainActivity, Onboard::class.java))
-//            finish()
-//        }, 2000)
+        Handler().postDelayed({
+
+            startActivity(Intent(this@MainActivity, Onboard::class.java))
+            finish()
+        }, 10000)
 
 
     }
