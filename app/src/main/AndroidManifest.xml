@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuickNote"
         tools:targetApi="31">
+
         <activity
             android:name=".Context"
             android:exported="false" />
